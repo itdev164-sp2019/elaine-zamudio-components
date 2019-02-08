@@ -12,6 +12,6 @@ border: solid 1px
 
     export const Button = props => <StyledButton {...props} />
 
-    Button.PropTypes = {
+    Button.propTypes = {
         variant: PropTypes.string
     }
