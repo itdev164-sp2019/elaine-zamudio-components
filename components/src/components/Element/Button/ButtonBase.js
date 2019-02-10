@@ -12,7 +12,7 @@ cursor: pointer;
 `
 
 export const ButtonBase = ({ children, ...props}) => (
-     <Reset {...props}>Contact Me</Reset> //Between Reset is what button says
+     <Reset {...props}>See More</Reset> //Between Reset is what button says
 )
 
 Button.propTypes = {
