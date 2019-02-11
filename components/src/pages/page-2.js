@@ -1,14 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Image2 from "../components/image2"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <SEO title="A Star" />
+    <h1>V838 Monocerotis (V838 Mon)</h1>
+    <p>Credit:
+NASA, ESA, and The Hubble Heritage Team (AURA/STScI)</p>
+    <Image2 />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
