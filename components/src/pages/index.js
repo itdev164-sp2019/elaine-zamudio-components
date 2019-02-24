@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import { Address, Button } from "../components/Element"
+import { Button, IconButton, Section } from "../components/Element"
+import { Search } from 'styled-icons/feather'
+
 
 const IndexPage = () => (
   <Layout>
@@ -13,15 +15,14 @@ const IndexPage = () => (
     <p>Distance: 1,800 light-years</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
- 
-    </div>
-    <Address>
+     </div>
+    <Section flex justifyContent="space-evenly" m={2}>
    <p> Planetary Nebula NGC 5189</p>
        
    <Link to="/page-2/">Go to another space image.</Link><br/>
       <Button variant="primary">something goes here</Button>
-    </Address>
-    
+      <IconButton icon={<Search />} />
+    </Section>
   </Layout>
 )
 

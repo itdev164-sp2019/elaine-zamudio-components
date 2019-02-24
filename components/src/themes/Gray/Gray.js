@@ -48,6 +48,7 @@ const defaults = {
 letterSpacing: theme.letterSpacings.tracked    }
 }
 
+
 const variants = {
    button: {
        primary: {
@@ -61,7 +62,7 @@ const variants = {
            borderColor: theme.colors.primary.contrastText
        }
    },
-   linkButton: {
+   iconButton: {
        primary: {
            color: theme.colors.primary.main
        },
@@ -69,6 +70,13 @@ const variants = {
            color: theme.colors.primary.contrastText
        }
    },
-
+   linkButton: {
+       primary: {
+           color: theme.colors.primary.main
+       },
+       contrast: {
+           color: theme.colors.primary.contrastText
+       }
+   }
 }
 
