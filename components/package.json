@@ -21,7 +21,8 @@
     "react-helmet": "^5.2.0",
     "rebass": "^3.0.0-12",
     "styled-components": "^4.1.3",
-    "styled-icons": "^7.2.0"
+    "styled-icons": "^7.2.0",
+    "@bit/bit.envs.compilers.react": "file:./components/compilers/react"
   },
   "keywords": [
     "gatsby"
