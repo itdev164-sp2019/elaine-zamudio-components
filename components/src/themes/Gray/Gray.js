@@ -1,4 +1,5 @@
 import React from 'react'
+import { darken } from 'polished'
 import mastheadImage from './images/rocket.jpg'
 import { Menu, Search } from 'styled-icons/feather'
 
@@ -49,13 +50,19 @@ const theme = {
     }
   }
 }
-
 const defaults = {
   button: {
     padding: `${theme.space[2] / 16}em ${(theme.space[3] + 4) / 16}em`,
     border: theme.borders[3],
     textTransform: 'uppercase',
     letterSpacing: theme.letterSpacings.tracked
+  },
+  masthead: {
+    height: '100%',
+    width: '100%',
+    background: theme.colors.primary.main,
+    borderBottom: theme.borders[1],
+    borderColor: darken(0.1, theme.colors.primary.main)
   },
   text: {
     lineHeight: theme.lineHeights.copy
